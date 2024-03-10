@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .container{
+    display: flex;
+} */
+main{
+    margin: auto;
+    height: 80vh;
+    width: 100vw;
+    background-image: url(assets/images/bg.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+.box{
+    height: 80vh;
+    background-color: black;
+    width: 100vw;
+    opacity: 50%;
+}
+
+.logo{
+    background-image: url(assets/images/logo.svg);
+    height: 100px;
+    background-position: top;
+    background-repeat:no-repeat ;
+    /* display: inline; */
+}
