@@ -1,74 +1,134 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 /* .container{
     display: flex;
 } */
-.main{
-    margin: auto;
-    /* display: flex; */
-    height: 80vh;
-    width: 100vw;
-    position: relative;
-    background-image: url(assets/images/bg.jpg);
-    background-position: top;
-    background-size: cover;
-    background-attachment: fixed;
-    
+.main {
+  margin: auto;
+  /* display: flex; */
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-image: url(assets/images/bg.jpg);
+  background-position: top;
+  background-size: cover;
 
+  /* background-attachment: fixed; */
 }
-nav{
-    position: relative;
-    top: 20px;
-    display: flex;
-    max-width: 80vw;
-    margin: auto;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 10;
+nav {
+  position: relative;
+  top: 20px;
+  display: flex;
+  max-width: 80vw;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
 }
-img{
-    
-    position: relative;
-    /* right: 180px; */
-    /* top: 20px; */
-    height: 50px;
-}
-.btn{
-    display: flex;
-
-}
-.lang{
-    margin-right: 10px;
-    background-color:black;
-    opacity: 60%;
-    color: white;
-    text-decoration: solid white;
-}
-.sign{
-    background-color: red;
-    color: white;
+img {
+  position: relative;
+  height: 40px;
 }
 
-.box{
-    margin: 0;
-    position: absolute;
-    height: 80vh;
-    background-color: black;
-    width: 100vw;
-    top: 0;
-    background-position: top;
-    background-size: cover;
-    background-attachment: fixed; 
-    opacity: 70%;
-    
+select {
+  height: 34px;
+  width: 110px;
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;
+}
+option {
+  text-align: center;
+  color: black;
+  background-color: transparent;
 }
 
-/* .logo{
-    background-image: url(assets/images/logo.svg);
-    height: 100px;
-    background-position: top;
-    background-repeat:no-repeat ;
-    display: flex;
-} */
+.sign {
+  height: 34px;
+  width: 80px;
+  margin-left: 10px;
+  background-color: rgb(229, 9, 20);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.box {
+  margin: 0;
+  position: absolute;
+  height: 100vh;
+  background-color: black;
+  width: 100vw;
+  top: 0;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 70%;
+}
+.heading {
+  position: relative;
+  color: white;
+  z-index: 10;
+  top: 150px;
+  width: 100%;
+}
+h1,
+h2,
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  text-align: center;
+}
+h2 {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  position: relative;
+  top: 10px;
+  font-weight: 500;
+  font-size: larger;
+}
+h3 {
+  font-size: smaller;
+  position: relative;
+  top: 30px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-size: 100%;
+  font-weight: 550;
+}
+.mid {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+}
+.start {
+  width: 200px;
+  margin-left: 10px;
+  height: 55px;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: x-large;
+  font-weight: 500;
+}
+input {
+  height: 50px;
+  width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.537);
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  font-style: normal;
+  text-align: center;
+}
