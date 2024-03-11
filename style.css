@@ -5,10 +5,12 @@
 /* .container{
     display: flex;
 } */
-main{
+.main{
     margin: auto;
+    /* display: flex; */
     height: 80vh;
     width: 100vw;
+    position: relative;
     background-image: url(assets/images/bg.jpg);
     background-position: top;
     background-size: cover;
@@ -16,17 +18,57 @@ main{
     
 
 }
+nav{
+    position: relative;
+    top: 20px;
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+img{
+    
+    position: relative;
+    /* right: 180px; */
+    /* top: 20px; */
+    height: 50px;
+}
+.btn{
+    display: flex;
+
+}
+.lang{
+    margin-right: 10px;
+    background-color:black;
+    opacity: 60%;
+    color: white;
+    text-decoration: solid white;
+}
+.sign{
+    background-color: red;
+    color: white;
+}
+
 .box{
+    margin: 0;
+    position: absolute;
     height: 80vh;
     background-color: black;
     width: 100vw;
-    opacity: 50%;
+    top: 0;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed; 
+    opacity: 70%;
+    
 }
 
-.logo{
+/* .logo{
     background-image: url(assets/images/logo.svg);
     height: 100px;
     background-position: top;
     background-repeat:no-repeat ;
-    /* display: inline; */
-}
+    display: flex;
+} */
