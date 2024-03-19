@@ -131,6 +131,7 @@ input {
   font-size: large;
   font-style: normal;
   text-align: center;
+  background-color: transparent
 }
 .midbox{
   height: 50px;
